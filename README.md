@@ -1,3 +1,4 @@
+Бот позволяет получать оценки из электронного журнала в телеграм. Необходимо настроить cfg.json (инструкция в readme.txt) и запустить бота
 *** RUS/РУССКИЙ
 --- Настройка
 JSON файлы кроме cfg.json и role.json(по желанию) не трогаем.
@@ -9,14 +10,3 @@ JSON файлы кроме cfg.json и role.json(по желанию) не тр�
 /start - очевидно
 /pass - для прописки логина+пароля юзером
 /zap - запрос
-*** ENG
---- Setting up
-JSON files except cfg.json and role.we do not touch json (optional).
-In cfg.conf, we write {botfather bot token}, {channel id (bot checks subscription)}, {your nickname in tg or phone number}, {a link to your tg channel so that it can be found}
-In cfg.json is the status of users. It has not been brought to mind yet. The new status gives a delay of 5 seconds when requesting, which new and admin do not have. There are plans to make a larger list of roles and add restrictions.
---- Launch
-Launch - via main.py , one process.
---- Commands
-/start - obviously
-/pass - for registration of login+password by the user
-/zap request
